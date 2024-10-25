@@ -1,0 +1,586 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/owl.carousel.css">
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/fonts.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="css/responsive.css">
+</head>
+
+<body>
+    <!--section 1 starts-->
+
+
+    <div class="banner">
+        <header>
+            <nav class="navbar navbar-expand-lg navbar-light ">
+                <a class="navbar-brand" href="#"><img src="images/logo-removebg-preview.png" alt=""></a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></i></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ml-auto home">
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle " href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Home
+                      </a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <a class="dropdown-item" href="#">Action</a>
+                                <a class="dropdown-item" href="#">Another action</a>
+                                <div class="dropdown-divider"></div>
+                                <a class="dropdown-item" href="#">Something else here</a>
+                            </div>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                       Listing
+                      </a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <a class="dropdown-item" href="list.html">Action</a>
+                                <a class="dropdown-item" href="#">Another action</a>
+                                <div class="dropdown-divider"></div>
+                                <a class="dropdown-item" href="#">Something else here</a>
+                            </div>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                       Property
+                      </a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <a class="dropdown-item" href="#">Action</a>
+                                <a class="dropdown-item" href="#">Another action</a>
+                                <div class="dropdown-divider"></div>
+                                <a class="dropdown-item" href="#">Something else here</a>
+                            </div>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Pages
+                      </a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <a class="dropdown-item" href="#">Action</a>
+                                <a class="dropdown-item" href="#">Another action</a>
+                                <div class="dropdown-divider"></div>
+                                <a class="dropdown-item" href="#">Something else here</a>
+                            </div>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Blog
+                      </a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <a class="dropdown-item" href="blog.html">Action</a>
+                                <a class="dropdown-item" href="#">Another action</a>
+                                <div class="dropdown-divider"></div>
+                                <a class="dropdown-item" href="#">Something else here</a>
+                            </div>
+                        </li>
+                        <li class="nav-item active">
+                            <a class="nav-link" href="#">Contact <span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Login/Register</a>
+                        </li>
+                    </ul>
+                    <form class="form-inline my-2 my-lg-0">
+                        <input class="form-control mr-sm-2" type="search" placeholder="+ Creat Listing" aria-label="Search">
+
+                    </form>
+                </div>
+            </nav>
+        </header>
+        <div class="container text-center bannertext">
+            <h1>Find Your Dream Home</h1>
+            <p>From as low as $10 per day with limited time offer discounts.</p>
+            <p>
+                <a class="btn btn-primary buy" data-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
+                  Buy
+                </a>
+                <button class="btn btn-primary rent" type="button" data-toggle="collapse" data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+                 Rent
+                </button>
+            </p>
+            <div class="collapse" id="collapseExample">
+                <div class="card card-body sign ">
+                    <form>
+                        <div class="row ">
+                            <div class="col">
+                                <input type="text" class="form-control " placeholder="Enter Keyword...">
+                            </div>
+                            <div class="form-group col-md-4">
+
+                                <select id="inputState" class="form-control ">
+                                  <option selected>Property Type</option>
+                                  <option>...</option>
+                                </select>
+                            </div>
+                            <div class="col">
+                                <input type="text" class="form-control " placeholder=" Location ">
+                            </div>
+                            <div class="form-group col-md-4">
+
+                                <select id="inputState" class="form-control ">
+                                  <option selected>Price</option>
+                                  <option>...</option>
+                                </select>
+                            </div>
+                            <div class="col">
+                                <input type="text" class="enter " placeholder=" Advance ">
+                            </div>
+                            <!-- <div class="form-group col">
+                                <input type="hidden" id="latitude" name="latitude">
+                                <input type="hidden" id="longitude" name="longitude">
+                                <div class="col-sm-1"></div>
+                                <lable class="form-control-lable col-sm-4"></lable>
+                                <div class="col-sm-1">
+                                    <a href="" class="btn btn-info location" onclick="initModel()"><i class="fa-solid fa-location-dot"></i>Location</a>
+                                </div>
+                                <div class="col-sm-6"></div>
+                            </div> -->
+                        </div>
+                    </form>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <!--section 1 ends-->
+
+    <!--section 2 starts-->
+    <div class="section2 mb-5 bg-light">
+        <h3 class="text-center pt-5 font-weight-bold">Featured Products</h3>
+        <p class="text-center ">Handpicked properties by our team.</p>
+        <div class="container mt-3">
+            <div class="owl-carousel owl-theme">
+                <div class="item">
+
+                    <div class="col">
+                        <div class="card h-100">
+                            <img src="images/1.avif" class="card-img-top" alt="...">
+
+                            <span><a href="" class="one p-1 px-2">Featured</a></span>
+                            <span><a href="" class="two p-1 px-2">For Sell</a></span>
+                            <span><a href="" class="three p-1 px-2">$13000<sub>/mo</sub></a></span>
+                            <div class="card-body">
+                                <h5 class="card-title">Appartment</h5>
+                                <p class="card-text">Luxary Family Home</p>
+                                <p><i class="fa-solid fa-location-dot"></i>1421 San Pedro St, Los Angeles, CA 900015</p>
+                                <span class="number mr-3">Beds:1</span>
+                                <span class="number mr-3">Baths:1</span>
+                                <span class="number mr-3">SqFt:8085</span>
+                            </div>
+                            <div class="card-footer">
+                                <small class="text-body-secondary"><img class="year" src="images/4.jfif" alt=""><span class="pr-3 mx-3">Ali Tufan</span><span class="pl-3 ml-3">1 year ago</span ></small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="item">
+                    <div class="col">
+                        <div class="card h-100">
+                            <img src="images/2.jfif" class="card-img-top" alt="...">
+                            <span><a href="" class="one p-1 px-2">Featured</a></span>
+                            <span><a href="" class="two p-1 px-2">For Rent</a></span>
+                            <span><a href="" class="three p-1 px-2">$13000<sub>/mo</sub></a></span>
+                            <div class="card-body">
+                                <h5 class="card-title">Bunglows</h5>
+                                <p class="card-text">Renoveted Apartment</p>
+                                <p><i class="fa-solid fa-location-dot"></i>1421 San Pedro St, Los Angeles, CA 900015</p>
+                                <span class="number mr-3">Beds:2</span>
+                                <span class="number mr-3">Baths:2</span>
+                                <span class="number mr-3">SqFt:5280</span>
+                            </div>
+                            <div class="card-footer">
+                                <small class="text-body-secondary"><img class="year" src="images/4.jfif" alt=""><span class="pr-3 mx-3">Ali Tufan</span><span class="pl-3 ml-3">1 year ago</span ></small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+
+                    <div class="col">
+                        <div class="card h-100">
+                            <img src="images/3.avif" class="card-img-top" alt="...">
+                            <span><a href="" class="one p-1 px-2">Featured</a></span>
+                            <span><a href="" class="two p-1 px-2">For Rent</a></span>
+                            <span><a href="" class="three p-1 px-2">$13000<sub>/mo</sub></a></span>
+                            <div class="card-body">
+                                <h5 class="card-title">Bunglows</h5>
+                                <p class="card-text">Single Family Home</p>
+                                <p><i class="fa-solid fa-location-dot"></i>1421 San Pedro St, Los Angeles, CA 900015</p>
+                                <span class="number mr-3">Beds:3</span>
+                                <span class="number mr-3">Baths:3</span>
+                                <span class="number mr-3">SqFt:3280</span>
+                            </div>
+                            <div class="card-footer">
+                                <small class="text-body-secondary"><img class="year" src="images/4.jfif" alt=""><span class="pr-3 mx-3">Ali Tufan</span><span class="pl-3 ml-3">1 year ago</span ></small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+
+                    <div class="col">
+                        <div class="card h-100">
+                            <img src="images/3.avif" class="card-img-top" alt="...">
+                            <span><a href="" class="one p-1 px-2">Featured</a></span>
+                            <span><a href="" class="two p-1 px-2">For Rent</a></span>
+                            <span><a href="" class="three p-1 px-2">$13000<sub>/mo</sub></a></span>
+                            <div class="card-body">
+                                <h5 class="card-title">Bunglows</h5>
+                                <p class="card-text">Single Family Home</p>
+                                <p><i class="fa-solid fa-location-dot"></i>1421 San Pedro St, Los Angeles, CA 900015</p>
+                                <span class="number mr-3">Beds:3</span>
+                                <span class="number mr-3">Baths:3</span>
+                                <span class="number mr-3">SqFt:3280</span>
+                            </div>
+                            <div class="card-footer">
+                                <small class="text-body-secondary"><img class="year" src="images/4.jfif" alt=""><span class="pr-3 mx-3">Ali Tufan</span><span class="pl-3 ml-3">1 year ago</span ></small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="item">
+
+                    <div class="col">
+                        <div class="card h-100">
+                            <img src="images/3.avif" class="card-img-top" alt="...">
+                            <span><a href="" class="one p-1 px-2">Featured</a></span>
+                            <span><a href="" class="two p-1 px-2">For Rent</a></span>
+                            <span><a href="" class="three p-1 px-2">$13000<sub>/mo</sub></a></span>
+                            <div class="card-body">
+                                <h5 class="card-title">Bunglows</h5>
+                                <p class="card-text">Single Family Home</p>
+                                <p><i class="fa-solid fa-location-dot"></i>1421 San Pedro St, Los Angeles, CA 900015</p>
+                                <span class="number mr-3">Beds:3</span>
+                                <span class="number mr-3">Baths:3</span>
+                                <span class="number mr-3">SqFt:3280</span>
+                            </div>
+                            <div class="card-footer">
+                                <small class="text-body-secondary"><img class="year" src="images/4.jfif" alt=""><span class="pr-3 mx-3">Ali Tufan</span><span class="pl-3 ml-3">1 year ago</span ></small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="item">
+
+                    <div class="col">
+                        <div class="card h-100">
+                            <img src="images/3.avif" class="card-img-top" alt="...">
+                            <span><a href="" class="one p-1 px-2">Featured</a></span>
+                            <span><a href="" class="two p-1 px-2">For Rent</a></span>
+                            <span><a href="" class="three p-1 px-2">$13000<sub>/mo</sub></a></span>
+                            <div class="card-body">
+                                <h5 class="card-title">Bunglows</h5>
+                                <p class="card-text">Single Family Home</p>
+                                <p><i class="fa-solid fa-location-dot"></i>1421 San Pedro St, Los Angeles, CA 900015</p>
+                                <span class="number mr-3">Beds:3</span>
+                                <span class="number mr-3">Baths:3</span>
+                                <span class="number mr-3">SqFt:3280</span>
+                            </div>
+                            <div class="card-footer">
+                                <small class="text-body-secondary"><img class="year" src="images/4.jfif" alt=""><span class="pr-3 mx-3">Ali Tufan</span><span class="pl-3 ml-3">1 year ago</span ></small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+    <!--section 2 ends-->
+
+    <!--section 3 starts-->
+    <div class="section3 my-5 ">
+        <h3 class="text-center font-weight-bold">Find Properties in These Cities</h3>
+        <p class="text-center ">Handpicked properties by our team.</p>
+        <div class="container">
+
+            <div class="row">
+                <div class="col-lg-4 col-md-3 col-sm-2 col-12 ">
+                    <img src="images/miami.jpg" class="  pb-4 places w-100 h-100">
+                    <div class="caption">
+                        <h5>Miami</h5>
+                        <p>24 Properties</p>
+                    </div>
+                </div>
+
+                <div class="col-lg-8 col-md-9 col-sm-10 col-12">
+                    <img src="images/los angeles.jpg" class="pb-4 places w-100 h-100">
+                    <div class="caption">
+                        <h5>Los Angeles</h5>
+                        <p>18 Properties</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-8 col-md-9 col-sm-10 col-12">
+                    <img src="images/newyork.jpg" class="pb-4 places w-100 h-100">
+                    <div class="caption">
+                        <h5>New York</h5>
+                        <p>89 Properties</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-3 col-sm-2 col-12">
+                    <img src="images/florida.jpg" class="pb-4 places w-100 h-100">
+                    <div class="caption">
+                        <h5>Florida</h5>
+                        <p>47 Properties</p>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+    <!--section 3 ends-->
+
+    <!--section 4 starts-->
+    <div class="section4 my-3 bg-light pb-5">
+        <h3 class="text-center font-weight-bold pt-5">Why Choose Us</h3>
+        <p class="text-center mb-5 ">We provide full service at every step.</p>
+        <div class="container">
+            <div class="card-deck">
+                <div class="card circle">
+                    <i class="fa-solid fa-house-chimney-user"></i>
+
+                    <div class="card-body">
+                        <h5 class="card-title text-center text-dark font-weight-bold">Trusted By Thousands</h5>
+                        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+
+                    </div>
+                </div>
+                <div class="card circle">
+                    <i class="fa-solid fa-house-chimney-user"></i>
+
+                    <div class="card-body">
+                        <h5 class="card-title text-center text-dark font-weight-bold">Wide Range of Properties</h5>
+                        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+
+                    </div>
+                </div>
+                <div class="card circle">
+                    <i class="fa-solid fa-house-chimney-user"></i>
+
+                    <div class="card-body mb-5">
+                        <h5 class="card-title text-center text-dark font-weight-bold">Finsncing Made Easy</h5>
+                        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+        <h3 class="text-center font-weight-bold mt-5">Articles & Tips</h3>
+        <p class="text-center ">Handpicked properties by our team.</p>
+        <div class="container mt-3">
+            <div class="card-deck">
+                <div class="card">
+                    <img class="card-img-top" src="images/4.avif" alt="Card image cap">
+                    <div class="card-body">
+                        <h5 class="card-title">Business</h5>
+                        <p class="card-text text-left business">Skills That You Can Learn In Real Eastate Market</p>
+                    </div>
+                    <div class="card-footer">
+                        <small class="text-body-secondary"><img class="year" src="images/4.jfif" alt=""><span class="pr-3 mx-3">Ali Tufan</span><span class="pl-3 mx-3">1 year ago</span ></small>
+                    </div>
+                </div>
+                <div class="card">
+                    <img class="card-img-top" src="images/5.avif" alt="Card image cap">
+                    <div class="card-body">
+                        <h5 class="card-title">Construction</h5>
+                        <p class="card-text text-left business">Skills That You Can Learn In Real Eastate Market</p>
+                    </div>
+                    <div class="card-footer">
+                        <small class="text-body-secondary"><img class="year" src="images/4.jfif" alt=""><span class="pr-3 mx-3">Ali Tufan</span><span class="pl-3 mx-3">1 year ago</span ></small>
+                    </div>
+                </div>
+                <div class="card">
+                    <img class="card-img-top" src="images/6.avif" alt="Card image cap">
+                    <div class="card-body">
+                        <h5 class="card-title">Business</h5>
+                        <p class="card-text text-left business">Skills That You Can Learn In Real Eastate Market</p>
+                    </div>
+                    <div class="card-footer">
+                        <small class="text-body-secondary"><img class="year" src="images/4.jfif" alt=""><span class="pr-3 mx-3">Ali Tufan</span><span class="pl-3 mx-3">1 year ago</span ></small>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--section 4 ends-->
+
+    <!--section 5 starts-->
+    <div class="section5 my-5 ">
+        <h3 class="text-center font-weight-bold">Our Partners</h3>
+        <p class="text-center ">We Only Work With The Best Companies Around The World</p>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-2 col-md-2  col-12">
+                    <img src="images/th__6_-removebg-preview (2).png" alt="">
+                </div>
+                <div class="col-lg-3 col-md-3  col-12">
+                    <img src="images/th__7_-removebg-preview (3).png" alt="">
+                </div>
+                <div class="col-lg-3 col-md-3  col-12">
+                    <img src="images/th__8_-removebg-preview.png" alt="">
+                </div>
+                <div class="col-lg-2 col-md-2  col-12">
+                    <img src="images/th__6_-removebg-preview (2).png" alt="">
+                </div>
+                <div class="col-lg-2 col-md-2  col-12">
+                    <img src="images/th__7_-removebg-preview (3).png" alt="">
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <!--section 5 ends-->
+
+    <!--section 6 starts-->
+    <div class="section6 mt-5 bg-danger ">
+        <div class="container">
+            <div class="row text-white">
+                <div class="col-lg-9 col-md-10 col-sm-11  col-12 ">
+                    <h4 class="font-weight-bold pt-5">Become A Real Estate Agent</h4>
+                    <p class="pb-5">We only work with the best companies around the globe</p>
+
+                </div>
+                <div class="col-lg-3 col-md-2 col-sm-1 col-12 py-5 mt-3">
+                    <a href="" class="register"> Register Now</a>
+
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--section 6 ends-->
+
+    <!--section 7 starts-->
+    <div class="section7  py-5 ">
+        <div class="container">
+            <div class="row text-white">
+                <div class="col-lg-4 col-md-4   col-12 ">
+                    <h6 class="font-weight-bold pt-5 pb-3">About Site</h6>
+                    <small class="text-secondary font-weight-bold">We're reimagening how you buy, sell or rent. It is easier to get into a place you love. So let's do this, together</small>
+
+                </div>
+                <div class="col-lg-2 col-md-3   col-12 ">
+                    <h6 class="font-weight-bold pt-5 pb-3 ">Quick links</h6>
+
+                    <a href="" class="quick-links text-secondary font-weight-bold">About Us</a>
+                    <a href="" class="quick-links text-secondary font-weight-bold">Terms & Conditions</a>
+                    <a href="" class="quick-links text-secondary font-weight-bold">User's Guide</a>
+                    <a href="" class="quick-links text-secondary font-weight-bold">Support Center</a>
+                    <a href="" class="quick-links text-secondary font-weight-bold">Press Info</a>
+                </div>
+                <div class="col-lg-3 col-md-2   col-12 ">
+                    <h6 class="font-weight-bold pt-5 pb-3 ">Contact Us </h6>
+                    <a href="mailto:info@findhouse.com" class="quick-links text-secondary font-weight-bold">info@findhouse.com</a>
+                    <a href="" class="quick-links text-secondary font-weight-bold">Collins Street West, Victoria 8007, Australia.</a>
+                    <a href="tel:+1 246-345-0699" class="quick-links text-secondary font-weight-bold">+1 246-345-0699</a>
+                    <a href="tel:+1 246-345-0699" class="quick-links text-secondary font-weight-bold">+1 246-345-0699</a>
+                </div>
+
+                <div class=" col-lg-3 col-md-3 col-12 ">
+                    <h6 class="font-weight-bold pt-5 pb-3 ">Follow Us</h6>
+                    <a href="" class="pr-3 text-secondary font-weight-bold"><i class="fa-brands fa-facebook-f"></i></a>
+                    <a href="" class="pr-3 text-secondary font-weight-bold"><i class="fa-brands fa-twitter"></i></a>
+                    <a href="" class="pr-3 text-secondary font-weight-bold"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="" class="pr-3 text-secondary font-weight-bold"><i class="fa-brands fa-pinterest-p"></i></a>
+                    <a href="" class="pr-3 text-secondary font-weight-bold"><i class="fa-solid fa-globe"></i></a>
+                    <h6 class="font-weight-bold pt-5 pb-3 ">Subscribe</h6>
+                    <a href="" class=" text-secondary font-weight-bold your-email">Your Email</a>
+                    <a href="" class=" text-secondary font-weight-bold "><i class="fa-solid fa-chevron-right right-arrow"></i></a>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <!--section 7 ends-->
+
+    <!--section 8 starts-->
+    <div class="section8  py-5 ">
+        <div class="container">
+            <div class="row">
+                <div class=" col-lg-1 col-md-1 col-12 ">
+                    <a href="" class="mini-footer text-secondary font-weight-bold">Home</a>
+                </div>
+                <div class=" col-lg-1 col-md-1 col-12 ">
+                    <a href="" class="mini-footer text-secondary font-weight-bold">Listing</a>
+                </div>
+                <div class=" col-lg-1 col-md-1 col-12 ">
+                    <a href="" class="mini-footer text-secondary font-weight-bold">Property</a>
+                </div>
+                <div class=" col-lg-1 col-md-1 col-12 ">
+                    <a href="" class="mini-footer text-secondary font-weight-bold">About Us</a>
+                </div>
+                <div class="mini-footer col-lg-1 col-md-1 col-12 ">
+                    <a href="" class=" text-secondary font-weight-bold">Blog</a>
+                </div>
+                <div class=" col-lg-3 col-md-3 col-12 ">
+                    <a href="" class="mini-footer text-secondary font-weight-bold">Contact</a>
+                </div>
+                <div class=" col-lg-4 col-md-4 col-12 ">
+                    <a href="" class="mini-footer text-secondary font-weight-bold"><i class="fa-regular fa-copyright"></i>2023 by ib-themes. All rights reserved</a>
+
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <!--section 8 ends-->
+    <script src="js/slim.js "></script>
+    <script src="js/popper.js "></script>
+    <script src="js/bootstrap.js "></script>
+    <script src="js/owl.carousel.min.js "></script>
+    <script>
+        $('.owl-carousel').owlCarousel({
+            loop: true,
+            margin: 10,
+            nav: true,
+            responsive: {
+                0: {
+                    items: 1
+                },
+                600: {
+                    items: 2
+                },
+                1000: {
+                    items: 3
+                }
+            }
+        })
+    </script>
+</body>
+
+</html>
